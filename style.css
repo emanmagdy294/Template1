@@ -1,0 +1,183 @@
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.back-groud
+{
+    position: relative;
+    background-image: url(images/people-2608316_960_720.jpg);
+    overflow: hidden;
+    position: center;
+    color:white;
+    font-size: large;
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.color 
+{    
+    background-color:rgba(119, 106, 158, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+/**  side box **/
+.open 
+{
+    cursor: pointer;
+    font-size: 30px;
+}
+#sideBar
+{
+    position:fixed;
+    left: 0;
+    top: 100px;
+    z-index: 9999;
+}
+.Box
+{
+    background-color:rgba(170, 161, 161, 0.9);
+    filter: blur();
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 1s;
+    width: 0px;
+
+}
+.side-Box
+{
+    height: 100px;
+    width: 200px;
+    transition: 1s;
+}
+.test
+{
+    width: 200px;
+    padding:30px ;
+
+}
+
+/**** section 2 ****/
+.singer1 , .singer2  , .singer3  , .singer4
+{
+    background-color:rgba(119, 106, 158, 0.5);
+    filter: blur();
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+}
+#singer1 , #singer2  , #singer3  , #singer4
+{
+    background-color:rgb(151, 141, 141);
+    padding: 3px;
+}
+
+/*** section 3 ***/
+
+.counter
+{
+    border: 1px solid white;
+    
+    height: 200px;
+    
+}
+
+.counterDays
+{
+    position: relative;
+    background-image: url(images/pexels-linda-ellershein-3127880.jpg);
+    overflow: hidden;
+    position: center;
+    color:white;
+    font-size: large;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/*** section 4 ***/
+
+.contacts-us
+ {
+     background-image: url(images/phone-2280940_960_720.jpg);
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     position: relative;
+    overflow: hidden; 
+ }
+ .bgContact
+ {
+    background-color: rgba(106, 106, 216, 0.5);
+    width: 100%;
+    height: 100%;
+ }
+ input,textarea
+ {
+     width: 100%;
+     margin-bottom: 20px;
+     padding: 10px;
+     border-radius: 5px;
+     border: none;
+     background-color: rgb(214, 224, 241);
+ }
+
+ .send
+ {
+     color: white;
+     width: 35%;
+     margin: auto;
+     border-radius: 5px;
+     background-color: rgb(109, 95, 101);
+     text-align: center;  
+     transition: 1s;
+
+ }
+ 
+.send:hover
+{
+    background-color: cornflowerblue;
+}
+ .fot {
+     background-color: rgb(93, 93, 105);
+      color: #f7f7f7;
+     
+ }
+
+ .icon 
+{
+    color: #f7f7f7;
+    font-size:30px ;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 3px #d8dee6;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    cursor: pointer;
+}
+.icon:hover
+{
+    background-color:rgb(114, 114, 155);
+     
+    box-shadow: 0 0 0 10px rgba(253, 253, 255, 0.7);   
+}
+.backGroundBox
+{
+    background-color:rgba(94, 93, 97, 0.5);
+    filter: blur();
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+}
+.text-color
+{
+    color: #f7f7f7;
+}
